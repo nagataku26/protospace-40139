@@ -10,7 +10,7 @@
           <%= link_to "編集する", edit_prototype_path(@prototype), class: :prototype__btn %>
           <%= link_to "削除する", "/prototypes/#{@prototype.id}",data: { turbo_method: :delete }, class: :prototype__btn %>
         </div>
-      <% end %>
+      <% end %> 
       <div class="prototype__image">
         <%= image_tag @prototype.image %>
       </div>
